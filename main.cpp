@@ -330,7 +330,7 @@ private:
   Snake snak;
   int nScore;
   std::chrono::milliseconds delay;
-  std::chrono::_V2::system_clock::time_point t1;
+  std::chrono::system_clock::time_point t1;
   int stage = 0;
 
 public:
